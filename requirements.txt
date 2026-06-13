@@ -1,0 +1,11 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+sqlalchemy==2.0.36
+pydantic==2.10.3
+python-dotenv==1.0.1
+requests==2.32.3
+streamlit==1.41.1
+
+# LLM providers — keep only the ones you need
+openai==1.59.5        # used for OpenAI and Gemini (OpenAI-compat client)
+groq==0.13.1          # used for Groq
